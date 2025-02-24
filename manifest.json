@@ -1,0 +1,11 @@
+{
+	"id": "harn-weather",
+	"name": "Hârn Weather Generator",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Hârn weather generator. This is unofficial Hârn fan material. Hârn®, HârnWorld®, and HârnMaster® are registered trademarks of Arien Crossby, licensed by Keléstia Productions Ltd (www.kelestia.com). All related concepts and material are the property of Arien Crossby and Keléstia Productions Ltd (www.kelestia.com). Used with permission.",
+	"author": "Marc André Ueberall",
+	"authorUrl": "https://www.marcueberall.com/",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}
