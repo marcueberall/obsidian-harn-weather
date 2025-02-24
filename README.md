@@ -5,6 +5,10 @@ Weather generator for the HârnMaster: Roleplaying in the World of Kèthîra rul
 
 Select the climate zone and latitude according to the charts in the HârnMaster Keléstia rulebook and set the date you wish to generate the weather for.
 
+To generate the weather, just click one of the buttons or use the commands from the command palette. You can generate the weather for one day, week, month or year per generation step. The current date will be modified accordingly and can be used as a basis for further use.
+
+If you use the buttons, the generation data will be pasted to the clipboard. Executing the commands, will paste the generation data into the active note at the current cursor position.
+
 ## Installation
 ### From GitHub
 
