@@ -10,7 +10,7 @@ To generate the weather, just click one of the buttons or use the commands from 
 If you use the buttons, the generation data will be pasted to the clipboard. Executing the commands, will paste the generation data into the active note at the current cursor position.
 
 ## Installation
-### From Obsidian Community Plugins
+### From Community Plugins
 
 Hopefully coming soon ...
 
