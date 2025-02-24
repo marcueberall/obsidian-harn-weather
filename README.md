@@ -10,9 +10,13 @@ To generate the weather, just click one of the buttons or use the commands from 
 If you use the buttons, the generation data will be pasted to the clipboard. Executing the commands, will paste the generation data into the active note at the current cursor position.
 
 ## Installation
+### From Obsidian Community Plugins
+
+Hopefully coming soon ...
+
 ### From GitHub
 
-Download the plugin zip archive from the latest release and extract the plugin folder to your vault's plugins folder: <PATH_TO_VAULT>/.obsidian/plugins/.
+Download the plugin zip archive (obsidian-harn-weather.zip) from the latest release and extract the plugin folder to your vault's plugins folder: <PATH_TO_VAULT>/.obsidian/plugins/.
 
 **NOTE:** This folder might be invisible on machines running Linux and macOS.
 
