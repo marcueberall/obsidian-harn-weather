@@ -489,7 +489,9 @@ export default class HarnWeatherPlugin extends Plugin {
 			await leaf?.setViewState({type: VIEW_TYPE_HARN_WEATHER, active: true});
 		}
 
-		workspace.revealLeaf(leaf);
+		if (leaf) {
+			workspace.revealLeaf(leaf);
+		}
 	}
 
 	async loadSettings() {
