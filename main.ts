@@ -434,6 +434,7 @@ export default class HarnWeatherPlugin extends Plugin {
 		this.addCommand({
 			id: 'harn-generate-day',
 			name: 'Get the weather for one day',
+			icon: 'cloud-sun',
 			editorCallback: (editor: Editor, view: MarkdownView) => {
 				editor.replaceSelection(generateWeather(this.settings, 1));
 			}
@@ -442,6 +443,7 @@ export default class HarnWeatherPlugin extends Plugin {
 		this.addCommand({
 			id: 'harn-generate-week',
 			name: 'Get the weather for one week',
+			icon: 'cloud-sun',
 			editorCallback: (editor: Editor, view: MarkdownView) => {
 				editor.replaceSelection(generateWeather(this.settings, 10));
 			}
@@ -450,6 +452,7 @@ export default class HarnWeatherPlugin extends Plugin {
 		this.addCommand({
 			id: 'harn-generate-month',
 			name: 'Get the weather for one month',
+			icon: 'cloud-sun',
 			editorCallback: (editor: Editor, view: MarkdownView) => {
 				editor.replaceSelection(generateWeather(this.settings, 30));
 			}
@@ -458,16 +461,11 @@ export default class HarnWeatherPlugin extends Plugin {
 		this.addCommand({
 			id: 'harn-generate-year',
 			name: 'Get the weather for one year',
+			icon: 'cloud-sun',
 			editorCallback: (editor: Editor, view: MarkdownView) => {
 				editor.replaceSelection(generateWeather(this.settings, 360));
 			}
 		})
-
-		this.registerDomEvent(document, 'click', (evt: MouseEvent) => {
-			console.log('click', evt);
-		});
-
-		this.registerInterval(window.setInterval(() => console.log('setInterval'), 5 * 60 * 1000));
 	}
 
 	onunload() {
