@@ -519,7 +519,7 @@ export class HarnWeatherView extends ItemView {
 	}
 
 	getDisplayText() {
-		return 'Hârn Weather';
+		return 'Hârn weather';
 	}
 
 	getIcon(): IconName {
@@ -547,7 +547,7 @@ export class HarnWeatherView extends ItemView {
 			}));
 
 		new Setting(this.contentEl)
-		.setName('Climate Zone')
+		.setName('Climate zone')
 		.setDesc('The climate zone to generate the weather for.')
 		.addDropdown(dropdown => fieldClimateZone = dropdown
 			.addOption('0', 'Subpolar')
